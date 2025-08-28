@@ -5,14 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Assignment 05</title>
+
   <!-- daisy ui cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <!-- tailwind cdn -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="stylesheet" href="./styles/font.css">
 </head>
 
-<body>
+<body class="bg-[#f5fff6] h-[100vh]">
 
+  <header class="max-w-[1920px] mx-auto">
+
+    <!-- navigation bar desing -->
+    <nav
+      class="bg-white shadow-[0px_1px_50px_0px_#b5b5b540] flex flex-col items-center gap-6 p-4 lg:flex-row lg:justify-between lg:p-[24px_60px_24px_60px]">
+
+      <div class="flex justify-center items-center gap-2">
+        <img class="w-12 h-12" src="./assets/logo.png" alt="">
+        <h2 class="inter text-[#006747] font-extrabold text-xl">Emergency <br> Service</h2>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-5">
+        <button class="btn btn-active border-none rounded-[50px] p-[12px_20px_12px_20px] bg-[#41FF6B1A]">
+          <h3 class="inter font-extrabold text-[16px]">0</h3>
+          <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
+        </button>
+
+        <button class="btn btn-active border-none rounded-[50px] p-[12px_20px_12px_20px] bg-[#41FF6B1A]">
+          <h3 class="inter font-extrabold text-[16px]">100</h3>
+          <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt="">
+        </button>
+
+        <button class="btn btn-active border-none rounded-[50px] p-[14px_28px_14px_28px] bg-[#00A63E]">
+          <h3 class="inter font-semibold text-[16px] text-white"><span>2</span> Copy</h3>
+        </button>
+      </div>
+
+    </nav>
+  </header>
 
 </body>
 
