@@ -79,3 +79,21 @@ getElementById("clear-btn").addEventListener("click", function() {
   const callDatas = getElementById("history-container");
   callDatas.innerText = "";
 })
+
+// 4. copy button implementation
+getAllElementsByClassName("crd-copy-btn").forEach(button => {
+
+  button.addEventListener("click", function() {
+    const card = button.closest(".crd");
+    const contactNo = card.querySelector(".crd-contact-no").innerText;
+
+    navigator.clipboard.writeText(contactNo).then(() => {
+      alert(`Copied contact info: ${contactNo}`);
+    })
+
+    let copyValue = getNumInnerText("copy-count");
+    copyValue++;
+    getElementById("copy-count").innerText = copyValue;
+  })
+
+})
