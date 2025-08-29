@@ -34,12 +34,12 @@
 
       <div class="flex flex-wrap justify-center gap-5">
         <button class="btn btn-active border-none rounded-[50px] p-[12px_20px_12px_20px] bg-[#41FF6B1A]">
-          <h3 class="inter font-extrabold text-[16px]">0</h3>
+          <h3 id="heart-count" class="inter font-extrabold text-[16px]">0</h3>
           <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
         </button>
 
         <button class="btn btn-active border-none rounded-[50px] p-[12px_20px_12px_20px] bg-[#41FF6B1A]">
-          <h3 class="inter font-extrabold text-[16px]">100</h3>
+          <h3 id="coin-count" class="inter font-extrabold text-[16px]">100</h3>
           <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt="">
         </button>
 
@@ -76,284 +76,284 @@
     <section id="cards-container" class="lg:col-span-9">
       <div id="cards-parent" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">National Emergency Number</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">National Emergency Number</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">National Emergency</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">999</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">999</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">All</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-blue-200"
               src="./assets/police.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Police Helpline Number</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Police Helpline Number</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Police</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">999</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">999</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Police</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/fire-service.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Fire Service Number</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Fire Service Number</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Fire Service</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">999</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">999</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Fire</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/ambulance.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Ambulance Service</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Ambulance Service</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Ambulance</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">1994-999999</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">1994-999999</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Health</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Women & Child Helpline</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Women & Child Helpline</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Women & Child Helpline</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">109</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">109</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Help</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Anti-Corruption Helpline</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Anti-Corruption Helpline</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Anti-Corruption</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">108</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">108</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Govt.</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Electricity Helpline</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Electricity Helpline</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Electricity Outage</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">16216</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">16216</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Electricity</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Brac Helpline</h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Brac Helpline</h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Brac</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">16445</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">16445</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">NGO</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
-        <!-- card start -->
-        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+        <!-- finish -->
+        <!-- start -->
+        <div
+          class="crd w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
           <div class="flex justify-between items-center">
             <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
               src="./assets/emergency.png" alt="">
-            <i id="heart-btn" class="fa-regular fa-heart"></i>
+            <i class="heart-icon fa-regular fa-heart"></i>
           </div>
 
-          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Bangladesh Railway Helpline </h2>
+          <h2 class="crd-title hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">Bangladesh Railway Helpline </h2>
           <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">Bangladesh Railway</p>
 
-          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">163</h1>
+          <h1 class="crd-contact-no roboto text-2xl lg:text-3xl font-bold">163</h1>
           <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
             <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Travel</h3>
           </button>
 
           <div class="pt-[24px] flex gap-[8px]">
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
-              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+            <button class="crd-copy-btn flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
                 Copy</h3>
             </button>
 
-            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
-              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+            <button class="call-btn flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
               </h3>
             </button>
           </div>
-
         </div>
-        <!-- card finish -->
+        <!-- finish -->
 
       </div>
     </section>
 
-    <aside id="history-container"
+    <aside
       class="lg:col-span-3 w-10/12 lg:w-full mx-auto p-5 lg:p-6 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
 
-      <div id="history-title" class="flex justify-between items-center">
+      <div id="history-title" class="flex justify-between items-center mb-4">
         <div class="flex items-center gap-2">
           <i class="text-gray-500 fa-solid fa-clock-rotate-left"></i>
           <h2 class="roboto text-xl font-[500]">Call History</h2>
@@ -364,13 +364,15 @@
         </button>
       </div>
 
-
+      <div id="history-container">
+      </div>
 
     </aside>
 
   </main>
 
 
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
