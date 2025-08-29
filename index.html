@@ -10,11 +10,15 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <!-- tailwind cdn -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./styles/font.css">
 </head>
 
-<body class="bg-[#f5fff6] h-[100vh]">
+<body class="bg-[#f5fff6] h-full">
 
   <!-- header section -->
   <header class="w-full">
@@ -47,7 +51,7 @@
     </nav>
 
     <!-- hero section -->
-    <div
+    <section
       class="flex flex-col justify-center items-center gap-[11px] pt-5 pb-5 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
 
       <img class="w-[92px]" src="./assets/logo-dark.png" alt="">
@@ -62,9 +66,56 @@
         Government of the People’s
         Republic of Bangladesh</h3>
 
-    </div>
+    </section>
 
   </header>
+
+  <!-- main section -->
+  <main class="w-11/12 mx-auto py-6 lg:py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+    <section id="cards-container" class="lg:col-span-9">
+      <div id="cards-parent" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- card start -->
+        <div class="w-10/12 lg:w-full mx-auto p-6 lg:p-8 bg-white rounded-xl shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
+          <div class="flex justify-between items-center">
+            <img class="w-[50px] p-2 rounded-[8px] lg:p-3 lg:rounded-[16px] lg:w-[60px] bg-red-200"
+              src="./assets/emergency.png" alt="">
+            <i id="heart-btn" class="fa-regular fa-heart"></i>
+          </div>
+
+          <h2 class="hind-madurai text-xl lg:text-2xl font-bold mt-[16px]">National Emergency Number</h2>
+          <p class="text-[14px] lg:text-[18px] text-gray-500 roboto pb-[24px]">National Emergency</p>
+
+          <h1 id="contact-no" class="roboto text-2xl lg:text-3xl font-bold">999</h1>
+          <button class="btn btn-active border-none rounded-[50px] p-[6px_16px_6px_16px] bg-gray-200">
+            <h3 class="hind-madurai text-[14px] lg:text-[18px] text-gray-500 font-[400]">Fire</h3>
+          </button>
+
+          <div class="pt-[24px] flex gap-[8px]">
+            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-white border-gray-300 border-solid">
+              <h3 id="copy-btn" class="roboto font-[400] text-[16px] text-gray-500"><i class="fa-regular fa-copy"></i>
+                Copy</h3>
+            </button>
+
+            <button class="flex-1/2 btn rounded-[8px] p-[16px] bg-[#00A63E]">
+              <h3 id="call-btn" class="roboto font-[400] text-[16px] text-white"><i class="fa-solid fa-phone"></i> Call
+              </h3>
+            </button>
+          </div>
+
+        </div>
+        <!-- card finish -->
+
+      </div>
+    </section>
+
+    <aside id="history-container" class="lg:col-span-3">
+
+    </aside>
+
+  </main>
+
 
 </body>
 
