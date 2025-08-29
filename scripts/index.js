@@ -61,7 +61,7 @@ getAllElementsByClassName("call-btn").forEach(btn => {
       div.innerHTML = `
         <div class="bg-gray-100 mb-2 p-4 rounded-[8px] flex justify-between items-center">
           <div>
-            <h2 class="inter text-lg font-[600]">${data.callTitle}</h2>
+            <h2 class="inter text-base font-[600]">${data.callTitle}</h2>
             <p class="hind-madurai text-lg font-[400]">${data.callContact}</p>
           </div>
           <p class="hind-madurai text-lg">${data.callDate}</p>
